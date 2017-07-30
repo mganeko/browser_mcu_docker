@@ -32,7 +32,7 @@ CMD [  "https://webrtc.org" ]
 # $docker run -d -p 9222:9222 --cap-add=SYS_ADMIN mganeko/headless_mcu "https://meetin.biz/multi_mcu.html?auto=y&room=your-room-name" 
 
 # ---- to build ---
-# $git clone 
+# $git clone https://github.com/mganeko/browser_mcu_docker.git
 # $docker build -t mganeko/headless_mcu .　
 
 
