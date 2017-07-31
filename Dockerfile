@@ -14,12 +14,14 @@ EXPOSE 9222
 #CMD [ "--headless", "--disable-gpu", "--remote-debugging-address=0.0.0.0", "--remote-debugging-port=9222", "https://meetin.biz/multi_mcu.html?room=ggg&auto=y" ]
 
 # Autorun chrome headless with no GPU and with debug-port
-#ENTRYPOINT [ "google-chrome-stable", "--headless", "--disable-gpu", "--remote-debugging-address=0.0.0.0", "--remote-debugging-port=9222"]
-#CMD [ "https://webrtc.org" ]
+ENTRYPOINT [ "google-chrome-stable", "--headless", "--disable-gpu", "--remote-debugging-address=0.0.0.0", "--remote-debugging-port=9222"]
+CMD [ "https://webrtc.org" ]
 
-# Autorun chrome headless with no GPU and witout debug-port
-ENTRYPOINT [ "google-chrome-stable", "--headless", "--disable-gpu"] 
-CMD [  "https://webrtc.org" ]
+# --- NG --
+# Autorun chrome headless with no GPU and witout debug-port .. BUT DO NOT WORK
+#ENTRYPOINT [ "google-chrome-stable", "--headless", "--disable-gpu"] 
+#CMD [  "https://webrtc.org" ]
+# --- NG --
 
 # -- to use other URL, type as -- 
 # $docker run -d -p 9222:9222 --cap-add=SYS_ADMIN mganeko/headless_mcu:latest "https://yourserver/yourpage.html?a=v1&b=v2" 
