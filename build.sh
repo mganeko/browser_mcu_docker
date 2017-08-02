@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t mganeko/headless_mcu .
+docker build --no-cache=true -t mganeko/headless_mcu .
