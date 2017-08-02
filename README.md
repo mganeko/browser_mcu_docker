@@ -26,7 +26,7 @@
 
 ```
 $git clone https://github.com/mganeko/browser_mcu_docker.git
-$docker build -t mganeko/headless_mcu .　
+$docker build -t mganeko/browser_mcu_docker .　
 ```
 
 or 
@@ -41,7 +41,7 @@ $docker pull mganeko/browser_mcu
 * MCUのルーム名が _myroomname_ の場合
 
 ```
-$docker run -d -p 9222:9222 --cap-add=SYS_ADMIN mganeko/headless_mcu "https://meetin.biz/multi_mcu.html?auto=y&room=myroomname" 
+$docker run -d -p 9222:9222 --cap-add=SYS_ADMIN mganeko/browser_mcu_docker myroomname
 ```
 
 
