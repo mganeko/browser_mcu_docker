@@ -32,7 +32,7 @@ $docker build -t mganeko/browser_mcu_docker .　
 or 
 
 ```
-$docker pull mganeko/browser_mcu
+$docker pull mganeko/browser_mcu_docker
 ```
 
 #### run / 実行
