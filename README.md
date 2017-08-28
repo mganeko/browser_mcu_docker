@@ -2,15 +2,17 @@
 
 * Browser MCU Docker is WebRTC MCU module using a browser for video/audio processing
 * Browser MCU Server is using [Browser MCU Core](https://github.com/mganeko/browser_mcu_core) library 
-* Browser MCU Docker is using Chrome s headless browser, running in docker container
+* Browser MCU Docker is using Chrome as headless browser, running in docker container
 * Browser MCU Docker is based on [justinribeiro/chrome-headless](https://hub.docker.com/r/justinribeiro/chrome-headless/)
-* Browser MCU Docker is a part of Browse MCU Series
+* Browser MCU Docker is made for Browser MCU Service (NOT Open Source)
+* Browser MCU Docker is a part of [Browser MCU Series](https://github.com/mganeko/browser_mcu)
 * --
 * Browser MCU Docker はブラウザの映像/音声処理を活用した、WebRTC用MCUモジュールです
 * Browser MCU Docker は[Browser MCU Core](https://github.com/mganeko/browser_mcu_core) ライブラリを利用しています
 * Browser MCU Docker は Chromeのヘッドレスブラウザーモードを利用しています
 * Browser MCU Docker は [justinribeiro/chrome-headless](https://hub.docker.com/r/justinribeiro/chrome-headless/) のイメージをベースにしています
-* Browser MCU Server は Browse MCU シリーズの一部です
+* Browser MCU Docker は Browser MCU Service（オープンソースではありません）のために作られています
+* Browser MCU Docker は [Browse MCU シリーズ](https://github.com/mganeko/browser_mcu)の一部です
 
 ## Confirmed Environment / 動作確認環境
 
